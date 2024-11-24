@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Merriweather;
+    src: url(../fonts/Merriweather/);
+}
 
 @media screen and (min-width: 768px) {
 
