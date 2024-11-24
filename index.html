@@ -15,7 +15,10 @@
 
 <form action="index.html">
 
-    <h2>Contact Information</h2>
+    <fieldset>
+
+        <legend>Contact Information</legend>
+
         <label for="name">Full Name</label>
         <input type="text" id="name" name="user_name">
 
@@ -23,7 +26,7 @@
         <input type="email" id="mail" name="user_email">
 
         <label for="phone">Phone Number</label>
-        <input type="cell" id="phone" name="user_cell">
+        <input type="tel" id="phone" name="user_tel">
 
         <label for="address">Street Address</label>
         <input type="address-1" id="address" name="user_address">
@@ -32,29 +35,36 @@
         <input type="address-2" id="city" name="user_address2">
 
         <label for="state">State</label>
-        <input type="state" id="'state" name="user_address3">
-
+        <select id="state" name="user_address3">
+            <option value="" disabled selected hidden>Choose State</option>
+            <option value="California">California</option>
+            <option value="Texas">Texas</option>
+            <option value="Florida">Florida</option>
+            <option value="New York">New York</option>
+        </select>
         <label for="zip">Zip Code</label>
         <input type="zipcode" id="zip" name="user_zip">
 
-</form>
+    </fieldset>
 
-<form>
-
-    <h2>Newsletter</h2>
+    <fieldset>
+    
+        <legend>Newsletter</legend>
         <p>Select the newsletters you would like to receive</p>
-        <input type="checkbox" id="htmlnews" value="htmln" name="html_news"><label for="htmlnews">HTML News</label><br>
-        <input type="checkbox" id="cssnews" value="cssn" name="css_news"><label for="cssnews">CSS News</label><br>
-        <input type="checkbox" id="jsnews" value="jsn" name="js_news"><label for="jsnews">Javascript News</label><br>
+        <input type="checkbox" id="htmlnews" value="htmln" name="user_news"><label for="htmlnews">HTML News</label><br>
+        <input type="checkbox" id="cssnews" value="cssn" name="user_news"><label for="cssnews">CSS News</label><br>
+        <input type="checkbox" id="jsnews" value="jsn" name="user_news"><label for="jsnews">Javascript News</label><br>
 
         <p>Newsletter format</p>
-        <input type="checkbox" id="html" value="htmlu" name="html_user"><label for="html">HTML</label><br>
-        <input type="checkbox" id="plaintext" value="pt" name="pt_user"><label for="plaintext">Plain text</label><br>
+        <input type="radio" id="html" value="news_html" name="user_select"><label for="html">HTML</label><br>
+        <input type="radio" id="plaintext" value="news_pt" name="user_select"><label for="plaintext">Plain text</label><br>
 
         <p>Other topics you'd like to hear about</p>
         <input type="textarea" id="otopics" name="o_topics"> <br>
-
-        <button>Sign Up </button>
+    
+    </fieldset>
+        
+    <input type="submit" value="Sign Up">
 
 </form>
 
