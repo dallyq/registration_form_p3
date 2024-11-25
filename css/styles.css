@@ -25,6 +25,11 @@ input, select {
     background-color: rgb(238, 238, 238);
 }
 
+::placeholder {
+    font-style: italic;
+    text-align: right;
+}
+
 input[type=text], input[type=email], input[type=tel], input[type=address-line1],
 input[type=address-line2], input[type=zip], select[id=state] {
     border: 2px solid white;
@@ -39,8 +44,11 @@ input[type=textarea] {
 }
 
 .button {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
     color: white;
-    background-color: rgb(79, 206, 164);
+    background-color: rgb(59, 189, 178);
 }
 
 .container1, .container2 {
@@ -48,18 +56,10 @@ input[type=textarea] {
 }
 
 .item1, .item2, .item3, .item4, 
-.item5, .item6, item7, .item13 { 
+.item5, .item6, item7, .item13, .item14 { 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-}
-
-.button { 
-    
-}
-
-::placeholder {
-    text-align: right;
 }
 
 @media screen and (min-width: 768px) {
