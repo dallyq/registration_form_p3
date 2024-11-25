@@ -8,6 +8,19 @@
     src: url(../fonts/Merriweather/);
 }
 
+#codereview {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 25px 0;
+}
+
+.introduction {
+    text-align: center;
+    padding: 25px 0;
+}
+
 @media screen and (min-width: 768px) {
 
 }
