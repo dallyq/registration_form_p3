@@ -8,6 +8,8 @@
     src: url(../fonts/Merriweather/);
 }
 
+
+
 #codereview {
     color: white;
     background-color: black;
@@ -49,10 +51,12 @@ input[type=textarea] {
     padding: 15px;
     color: white;
     background-color: rgb(59, 189, 178);
+    font-size: 1.2rem;
 }
 
 .container1, .container2 {
     flex-direction: column;
+    border: 0px;
 }
 
 .item1, .item2, .item3, .item4, 
@@ -60,6 +64,12 @@ input[type=textarea] {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
 }
 
 @media screen and (min-width: 768px) {
