@@ -21,6 +21,15 @@
     padding: 25px 0;
 }
 
+input {
+    background-color: rgb(238, 238, 238);
+}
+
+.button {
+    color: white;
+    background-color: rgb(79, 206, 164);
+}
+
 @media screen and (min-width: 768px) {
 
 }
