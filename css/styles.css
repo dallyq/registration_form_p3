@@ -30,15 +30,19 @@ input, select {
     background-color: rgb(79, 206, 164);
 }
 
-.container1 {
+.container1, .container2 {
     flex-direction: column;
 }
 
 .item1, .item2, .item3, .item4, 
-.item5, .item6, item7, item8 { 
+.item5, .item6, item7, .item13 { 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.button { 
+    
 }
 
 ::placeholder {
