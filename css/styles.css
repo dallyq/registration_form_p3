@@ -3,12 +3,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: Merriweather;
-    src: url(../fonts/Merriweather/);
-}
-
-
 #codereview {
     color: white;
     background-color: black;
