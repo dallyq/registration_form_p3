@@ -1,10 +1,11 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Bebas Neue', serif;
 }
 
 @font-face {
-    font-family: BebasNeue-Regular;
+    font-family: BebasNeue;
     src: url(../fonts/BebasNeue-Regular.ttf);
 }
 
