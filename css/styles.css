@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: BebasNeue-Regular;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
 #codereview {
     color: white;
     background-color: black;
