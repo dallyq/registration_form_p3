@@ -22,6 +22,10 @@
     padding: 25px 0;
 }
 
+fieldset {
+    border: 2px 0px 0px 0px black;
+}
+
 input, select {
     background-color: rgb(238, 238, 238);
 }
@@ -31,8 +35,12 @@ input, select {
     text-align: right;
 }
 
+input:focus, select[id=state]:focus { 
+    outline-color:rgb(59, 189, 178);
+}
+
 input[type=text], input[type=email], input[type=tel], input[type=address-line1],
-input[type=address-line2], input[type=zip], select[id=state] {
+input[type=address-line2], input[type=zipS], select[id=state] {
     border: 2px solid white;
     border-radius: 5px;
     padding: 15px;
