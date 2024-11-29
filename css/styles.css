@@ -57,7 +57,7 @@ input:focus, select[id=state]:focus {
     outline-color:rgb(59, 189, 178);
 }
 
-.container2 p, {
+.container2 p {
     margin-top: 5px;
 }
 
