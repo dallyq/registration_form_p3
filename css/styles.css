@@ -40,9 +40,6 @@ p, .container1, .container2, ::placeholder, select[id=state] {
 
 legend {
     color: black;
-}
-
-legend {
     font-size: 1.4rem;
     padding: 15px 0px;
 }
@@ -60,11 +57,12 @@ input:focus, select[id=state]:focus {
     outline-color:rgb(59, 189, 178);
 }
 
-.container2 p {
+.container2 p, {
     margin-top: 5px;
 }
 
-.item8, .item9, .item10, .item11, .item12, .item13, .item14 {
+.item8, .item9, .item10, .item11, 
+.item12, .item13, .item14 {
     padding: 8px;
 }
 
@@ -97,7 +95,7 @@ input[type=textarea] {
 .container1, .container2 {
     flex-direction: column;
     border: 0px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .item1, .item2, .item3, .item4, 
