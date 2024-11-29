@@ -23,6 +23,8 @@
 }
 
 fieldset {
+    display: flex;
+    flex-direction: column;
     border-style: solid;
     border-color: black;
     border-right: none;
@@ -31,7 +33,7 @@ fieldset {
 }
 
 p, .container1, .container2, ::placeholder, select[id=state] {
-    color: rgb(139, 139, 139);
+    color: rgb(161, 161, 161);
 }
 
 legend {
