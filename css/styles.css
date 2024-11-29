@@ -112,5 +112,9 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-
 }
+
+/*fieldset {
+    margin: 0px 250px;
+}
+*/
