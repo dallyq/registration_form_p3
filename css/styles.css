@@ -22,8 +22,17 @@
     padding: 25px 0;
 }
 
-fieldset {
-    border: 2px 0px 0px 0px black;
+p, .container1, .container2, ::placeholder, select[id=state] {
+    color: rgb(139, 139, 139);
+}
+
+legend {
+    color: black;
+}
+
+legend {
+    font-size: 1.4rem;
+    padding: 15px 0px;
 }
 
 input, select {
