@@ -25,8 +25,6 @@
 }
 
 fieldset {
-    display: flex;
-    flex-direction: column;
     border-style: solid;
     border-color: black;
     border-right: none;
@@ -41,7 +39,6 @@ p, .container1, .container2, ::placeholder, select[id=state] {
 legend {
     color: black;
     font-size: 1.4rem;
-    padding: 15px 0px;
 }
 
 input, select {
@@ -57,25 +54,25 @@ input:focus, select[id=state]:focus {
     outline-color:rgb(59, 189, 178);
 }
 
-.container2 p {
-    margin-top: 5px;
-}
-
-.item8, .item9, .item10, .item11, 
-.item12, .item13, .item14 {
-    padding: 8px;
-}
-
-input[type=radio], input[type=checkbox] {
-    margin-right: 8px;
-}
-
 input[type=text], input[type=email], input[type=tel], input[type=address-line1],
 input[type=address-line2], input[type=zipS], select[id=state] {
     border: 2px solid white;
     border-radius: 5px;
     padding: 15px;
   }
+
+.container1, .container2 {
+    flex-direction: column;
+    border: 0px;
+    padding-bottom: 10px;
+}
+
+.item1, .item2, .item3, .item4, 
+.item5, .item6, item7, .item13, .item14 { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
 input[type=textarea] {
     border: 2px solid white;
@@ -92,19 +89,6 @@ input[type=textarea] {
     font-size: 1.2rem;
 }
 
-.container1, .container2 {
-    flex-direction: column;
-    border: 0px;
-    padding-bottom: 10px;
-}
-
-.item1, .item2, .item3, .item4, 
-.item5, .item6, item7, .item13, .item14 { 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
 footer {
     font-style: italic;
     text-align: center;
@@ -112,9 +96,9 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    fieldset, .introduction {
-        margin: 2px 200px;
-    }    
+fieldset, .introduction {
+    margin: 2px 200px;
+}    
 }
 
 .introduction {
@@ -130,3 +114,25 @@ footer {
 .container2 {
     padding-top: 30px;
 }
+
+/*.item1, .item2, .item3, .item4, .item5,
+.item6, .item7 {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+input {
+    width: 80%;
+}
+
+.item7 br {
+    display: none;
+}
+*/
