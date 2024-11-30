@@ -62,7 +62,6 @@ input[type=address-line2], input[type=zipS], select[id=state] {
   }
 
 .container1, .container2 {
-    flex-direction: column;
     border: 0px;
     padding-bottom: 10px;
 }
@@ -96,43 +95,23 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-fieldset, .introduction {
-    margin: 2px 200px;
-}    
-}
-
 .introduction {
     padding-top: 50px;
     padding-bottom: 40px;
 }
 
-.container1 {
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-.container2 {
-    padding-top: 30px;
-}
-
-/*.item1, .item2, .item3, .item4, .item5,
-.item6, .item7 {
+.item1, .item2, .item3, .item4, 
+.item5, .item6, item7, .item13, .item14 { 
+    display: inline;
+    flex-wrap: wrap;
     flex-direction: row;
-    display: flex;
-    justify-content: space-between;
 }
 
 label {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-
-input {
-    width: 80%;
+    align-self: center;
 }
 
 .item7 br {
     display: none;
 }
-*/
+}
