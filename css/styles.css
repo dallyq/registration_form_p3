@@ -24,6 +24,11 @@
     border-bottom: solid 4px;
 }
 
+legend {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 fieldset {
     border-style: solid;
     border-color: black;
@@ -79,6 +84,24 @@ input[type=textarea] {
     padding: 30px;
 }
 
+.container2 p, .item8, .item9, .item10,
+.item11, .item12, .item13, .item14 {
+    padding: 8px;
+}
+
+.container2 label {
+    padding-left: 7px;
+}
+
+.item12 {
+    padding-bottom: 20px;
+}
+
+legend {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 .button {
     border: 2px solid white;
     border-radius: 5px;
@@ -108,7 +131,7 @@ footer {
 .item5, .item6, item7 { 
     flex-direction: row;
     justify-content: space-between;
-    align-items:stretch;
+    align-items: stretch;
 }
 
 .container1 input, select[id="state"] {
@@ -119,19 +142,6 @@ footer {
 .container2 p, .item8, .item9, .item10,
 .item11, .item12, .item13, .item14 {
     padding: 8px;
-}
-
-.container2 label {
-    padding-left: 7px;
-}
-
-.item12 {
-    padding-bottom: 20px;
-}
-
-legend {
-    padding-top: 40px;
-    padding-bottom: 20px;
 }
 
 label {
