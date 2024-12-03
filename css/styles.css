@@ -100,11 +100,25 @@ footer {
     padding-bottom: 40px;
 }
 
+.introduction, fieldset {
+    width: 600px;
+    margin: 0 auto;
+
 .item1, .item2, .item3, .item4, 
-.item5, .item6, item7, .item13, .item14 { 
-    display: inline;
-    flex-wrap: wrap;
+.item5, .item6, item7 { 
     flex-direction: row;
+    justify-content: space-between;
+    align-items:stretch;
+}
+
+input, select[id="state"] {
+    width: 450px;
+    margin-bottom: 7px;
+}
+
+legend {
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 label {
