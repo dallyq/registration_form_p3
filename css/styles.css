@@ -111,9 +111,22 @@ footer {
     align-items:stretch;
 }
 
-input, select[id="state"] {
+.container1 input, select[id="state"] {
     width: 450px;
     margin-bottom: 7px;
+}
+
+.container2 p, .item8, .item9, .item10,
+.item11, .item12, .item13, .item14 {
+    padding: 8px;
+}
+
+.container2 label {
+    padding-left: 7px;
+}
+
+.item12 {
+    padding-bottom: 20px;
 }
 
 legend {
