@@ -55,6 +55,11 @@ input, select {
     text-align: right;
 }
 
+label, .item7 {
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+
 input:focus, select[id=state]:focus { 
     outline-color:rgb(59, 189, 178);
 }
