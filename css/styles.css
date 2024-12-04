@@ -56,7 +56,7 @@ input[type=textarea] {
     text-align: right;
 }
 
-label, .item7 {
+label {
     padding-top: 15px;
     padding-bottom: 3px;
 }
@@ -78,7 +78,7 @@ input[type=address-line2], input[type=zipS], select[id=state] {
 }
 
 .item1, .item2, .item3, .item4, 
-.item5, .item6, item7, .item13, .item14 { 
+.item5, .item6, .item7, .item13, .item14 { 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -88,6 +88,10 @@ input[type=textarea] {
     border: 2px solid white;
     border-radius: 5px;
     padding: 30px;
+}
+
+input[id="zipcode"] {
+    width: 200px;
 }
 
 .container2 p, .item8, .item9, .item10,
@@ -144,9 +148,17 @@ legend {
     justify-content: space-between;
 }
 
+.item7 {
+    padding-right: 250px;
+}
+
 .container1 input, select[id="state"] {
     width: 450px;
     margin-bottom: 7px;
+}
+
+input[id="zipcode"] {
+    width: 200px;
 }
 
 .container2 p, .item8, .item9, .item10,
