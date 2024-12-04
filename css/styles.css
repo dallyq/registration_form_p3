@@ -19,14 +19,9 @@
 
 .introduction {
     text-align: center;
-    padding: 25px 0;
+    padding: 25px 10px;
     margin: 4px 0px;
     border-bottom: solid 4px;
-}
-
-legend {
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 fieldset {
@@ -42,6 +37,8 @@ p, .container1, .container2, ::placeholder, select[id=state] {
 }
 
 legend {
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: black;
     font-size: 1.4rem;
 }
@@ -102,11 +99,6 @@ input[type=textarea] {
     padding-bottom: 20px;
 }
 
-legend {
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
-
 .button {
     border: 2px solid white;
     border-radius: 5px;
@@ -128,9 +120,19 @@ footer {
     padding-bottom: 40px;
 }
 
+legend {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 .introduction, fieldset {
     width: 600px;
     margin: 0 auto;
+}
+
+.introduction {
+    margin-bottom: 3px;
+}
 
 .item1, .item2, .item3, .item4, 
 .item5, .item6, .item7 { 
