@@ -161,4 +161,8 @@ label {
 .item7 br {
     display: none;
 }
+
+.button {
+    font-size: 1.4rem;
+}
 }
