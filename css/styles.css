@@ -47,6 +47,10 @@ input, select {
     background-color: rgb(238, 238, 238);
 }
 
+input[type=textarea] {
+    height: 120px;
+}
+
 ::placeholder {
     font-style: italic;
     text-align: right;
@@ -105,7 +109,7 @@ input[type=textarea] {
     padding: 15px;
     color: white;
     background-color: rgb(59, 189, 178);
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 footer {
