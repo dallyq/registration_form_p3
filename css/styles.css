@@ -1,7 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Bebas Neue', serif;
+    font-family: 'Bebas Neue', 'Times New Roman', sans-serif;
 }
 
 @font-face {
@@ -66,14 +66,14 @@ input:focus, select[id=state]:focus {
 }
 
 input[type=text], input[type=email], input[type=tel], input[type=address-line1],
-input[type=address-line2], input[type=zipS], select[id=state] {
+input[type=address-line2], input[type=zipS], select[id=state], input[type=textarea] {
     border: 2px solid white;
     border-radius: 5px;
     padding: 15px;
   }
 
 .container1, .container2 {
-    border: 0px;
+    border: none;
     padding-bottom: 10px;
 }
 
@@ -85,8 +85,6 @@ input[type=address-line2], input[type=zipS], select[id=state] {
 }
 
 input[type=textarea] {
-    border: 2px solid white;
-    border-radius: 5px;
     padding: 30px;
 }
 
@@ -123,11 +121,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-.introduction {
-    padding-top: 50px;
-    padding-bottom: 40px;
-}
-
 legend {
     padding-top: 40px;
     padding-bottom: 20px;
@@ -140,6 +133,8 @@ legend {
 
 .introduction {
     margin-bottom: 3px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .item1, .item2, .item3, .item4, 
