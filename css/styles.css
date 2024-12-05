@@ -141,14 +141,12 @@ legend {
 }
 
 .item1, .item2, .item3, .item4, 
-.item5, .item6, .item7 { 
+.item5, .item6 { 
     flex-direction: row;
     justify-content: space-between;
 }
 
-.item7 {
-    padding-right: 250px;
-}
+
 
 .container1 input, select[id="state"] {
     width: 450px;
@@ -157,6 +155,7 @@ legend {
 
 input[id="zipcode"] {
     width: 200px;
+    margin-left: 80px;
 }
 
 .container2 p, .item8, .item9, .item10,
