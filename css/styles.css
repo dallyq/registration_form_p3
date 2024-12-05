@@ -93,6 +93,7 @@ input[type=textarea] {
 
 input[id="zipcode"] {
     width: 200px;
+    margin-top: 3px;
 }
 
 .container2 p, .item8, .item9, .item10,
@@ -145,8 +146,6 @@ legend {
     flex-direction: row;
     justify-content: space-between;
 }
-
-
 
 .container1 input, select[id="state"] {
     width: 450px;
