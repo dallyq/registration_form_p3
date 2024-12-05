@@ -29,11 +29,7 @@ body {
 }
 
 fieldset {
-    border-style: solid;
-    border-color: black;
-    border-right: none;
-    border-left: none;
-    border-bottom: none;
+    border: none;
 }
 
 p, .container1, .container2, ::placeholder, select[id=state] {
