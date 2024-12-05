@@ -87,10 +87,6 @@ input[type=address-line2], input[type=zip], select[id=state], input[type=textare
     flex-direction: column;
 }
 
-input[type=textarea] {
-    padding: 30px;
-}
-
 input[id="zipcode"] {
     width: 200px;
     margin-top: 3px;
