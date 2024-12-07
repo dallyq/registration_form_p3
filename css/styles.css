@@ -158,7 +158,7 @@ input[id="topics"] {
     width: 100%;
 }
 
-input[id="number"] {
+input[type="tel"] {
     margin-left: 22%;
 }
 
