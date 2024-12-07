@@ -163,6 +163,10 @@ select[id="state"] {
     width: 450px;
 }
 
+input[id="topics"] {
+    width: 100%;
+}
+
 input[id="number"] {
     margin-left: 74px;
 }
