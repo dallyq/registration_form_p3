@@ -36,13 +36,8 @@ fieldset {
     border: none;
 }
 
-p, .container1, .container2, ::placeholder, select[id=state] {
-    color: rgb(99, 99, 99);
-}
-
 legend {
     padding-top: 20px;
-    color: black;
     font-size: 1.4rem;
 }
 
@@ -50,14 +45,10 @@ input, select {
     background-color: rgb(255, 255, 255);
 }
 
-input[type=textarea] {
-    height: 120px;
-}
-
 ::placeholder {
     font-style: italic;
     text-align: right;
-    color: rgb(195, 151, 231);
+    color: rgb(206, 153, 250);
 }
 
 label {
@@ -65,17 +56,17 @@ label {
     padding-bottom: 3px;
 }
 
-input:focus, select[id=state]:focus { 
+input:focus, select[id="state"]:focus { 
     outline-color:rgb(59, 189, 178);
 }
 
-input:hover, input:focus, select[id=state]:hover {
-  background-color: #d6ffe7;
+input:hover, input:focus, select[id="state"]:hover {
+  background-color: #e0ffed;
   transition: all 0.5s ease-out;
 }
 
-input[type=text], input[type=email], input[type=tel], input[type=address-line1],
-input[type=address-line2], input[type=zip], select[id=state], input[type=textarea] {
+input[type="text"], input[type="email"], select[id="state"], 
+input[type="tel"] {
     border: 2px solid white;
     border-radius: 5px;
     padding: 15px;
@@ -97,7 +88,7 @@ input[type=address-line2], input[type=zip], select[id=state], input[type=textare
     flex-direction: column;
 }
 
-input[id="zipcode"] {
+input[type="tel"] {
     width: 200px;
     margin-top: 3px;
 }
@@ -110,7 +101,6 @@ input[id="zipcode"] {
 .container2 label {
     padding-left: 7px;
 }
-
 .item12 {
     padding-bottom: 20px;
 }
