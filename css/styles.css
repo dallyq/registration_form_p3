@@ -95,12 +95,13 @@ input[type="tel"] {
 
 .container2 p, .item8, .item9, .item10,
 .item11, .item12, .item13, .item14 {
-    padding: 8px;
+    padding: 9px;
 }
 
 .container2 label {
     padding-left: 7px;
 }
+
 .item12 {
     padding-bottom: 20px;
 }
