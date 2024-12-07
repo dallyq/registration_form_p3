@@ -89,7 +89,7 @@ input[type="tel"] {
 }
 
 input[type="tel"] {
-    width: 200px;
+    width: 40%;
     margin-top: 3px;
 }
 
@@ -151,7 +151,7 @@ legend {
 
 input[type="text"], input[type="email"],
 select[id="state"] {
-    width: 450px;
+    width: 70%;
 }
 
 input[id="topics"] {
@@ -159,7 +159,7 @@ input[id="topics"] {
 }
 
 input[id="number"] {
-    margin-left: 74px;
+    margin-left: 22%;
 }
 
 .container2 p, .item8, .item9, .item10,
