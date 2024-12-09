@@ -73,8 +73,8 @@ input[type="tel"], textarea {
     padding: 15px;
 }
 
-.item7 {
-    padding: 15px 0px;
+input[id="number"] {
+    width: 50%;
 }
 
 .container1, .container2 {
@@ -83,14 +83,14 @@ input[type="tel"], textarea {
 }
 
 .item1, .item2, .item3, .item4, 
-.item5, .item6, .item13, .item14 { 
+.item5, .item6, .item7, .item13, 
+.item14 { 
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
 .item8, .item9, .item10,
-.item11, .item12, .item13, .item14 {
+.item11, .item12, .item14 {
     padding: 8px;
 }
 
@@ -109,6 +109,7 @@ textarea {
     color: white;
     background-color: rgb(59, 189, 178);
     font-size: 1.6rem;
+    width: 100%;
 }
 
 footer {
@@ -144,6 +145,11 @@ legend {
 input[type="text"], input[type="email"],
 select[id="state"], input[type="tel"] {
     width: 80%;
+}
+
+input[id="number"] {
+    width: 25%;
+    margin-left: 70px;
 }
 
 textarea {
