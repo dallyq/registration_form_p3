@@ -89,17 +89,13 @@ input[type="tel"], textarea {
     flex-direction: column;
 }
 
-.container2 p, .item8, .item9, .item10,
+.item8, .item9, .item10,
 .item11, .item12, .item13, .item14 {
-    padding: 9px;
+    padding: 8px;
 }
 
 .container2 label {
     padding-left: 7px;
-}
-
-.item12 {
-    padding-bottom: 20px;
 }
 
 textarea {
@@ -155,7 +151,7 @@ textarea {
 }
 
 .container2 p, .item8, .item9, .item10,
-.item11, .item12, .item13, .item14 {
+.item11, .item12, .item14 {
     padding: 8px;
 }
 
