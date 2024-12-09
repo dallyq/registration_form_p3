@@ -89,11 +89,6 @@ input[type="tel"], textarea {
     flex-direction: column;
 }
 
-input[type="tel"] {
-    width: 40%;
-    margin-top: 3px;
-}
-
 .container2 p, .item8, .item9, .item10,
 .item11, .item12, .item13, .item14 {
     padding: 9px;
@@ -107,7 +102,7 @@ input[type="tel"] {
     padding-bottom: 20px;
 }
 
-input#topics {
+textarea {
     height: 100px;
 }
 
@@ -151,23 +146,18 @@ legend {
 }
 
 input[type="text"], input[type="email"],
-select[id="state"] {
-    width: 70%;
+select[id="state"], input[type="tel"] {
+    width: 80%;
 }
 
 textarea {
     width: 100%;
 }
 
-input[type="tel"] {
-    margin-left: 22%;
-}
-
 .container2 p, .item8, .item9, .item10,
 .item11, .item12, .item13, .item14 {
     padding: 8px;
 }
-
 
 .item7 br {
     display: none;
