@@ -76,6 +76,7 @@ input[type="tel"], textarea {
 
 input[id="number"] {
     width: 50%;
+    margin-top: 3px;
 }
 
 .container1, .container2 {
@@ -84,10 +85,14 @@ input[id="number"] {
 }
 
 .item1, .item2, .item3, .item4, 
-.item5, .item6, .item7, .item13, 
+.item5, .item6, .item13, 
 .item14 { 
     display: flex;
     flex-direction: column;
+}
+
+.item7 {
+    padding-top: 15px;
 }
 
 .item8, .item9, .item10,
@@ -138,7 +143,7 @@ legend {
 }
 
 .item1, .item2, .item3, .item4, 
-.item5, .item6, .item7 { 
+.item5, .item6 { 
     flex-direction: row;
     justify-content: space-between;
     padding: 4px;
