@@ -56,11 +56,12 @@ label {
     padding-bottom: 3px;
 }
 
-input:focus, select[id="state"]:focus { 
+input:focus, select[id="state"]:focus, textarea:focus { 
     outline-color:rgb(59, 189, 178);
 }
 
-input:hover, input:focus, select[id="state"]:hover {
+input:hover, input:focus, select[id="state"]:hover, 
+textarea:hover {
   background-color: #e0ffed;
   transition: all 0.5s ease-out;
 }
