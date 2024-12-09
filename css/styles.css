@@ -91,7 +91,7 @@ input[id="number"] {
 }
 
 .item8, .item9, .item10,
-.item11, .item12, .item14 {
+.item11, .item12 {
     padding: 8px;
 }
 
@@ -107,6 +107,7 @@ textarea {
     border: 2px solid white;
     border-radius: 5px;
     padding: 15px;
+    margin-top: 30px;
     color: white;
     background-color: rgb(59, 189, 178);
     font-size: 1.6rem;
@@ -150,7 +151,7 @@ select[id="state"], input[type="tel"] {
 
 input[id="number"] {
     width: 25%;
-    margin-right: 310px;;
+    margin-right: 311px;;
 }
 
 textarea {
@@ -158,7 +159,7 @@ textarea {
 }
 
 .container2 p, .item8, .item9, .item10,
-.item11, .item12, .item14 {
+.item11, .item12 {
     padding: 8px;
 }
 
