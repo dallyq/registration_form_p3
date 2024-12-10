@@ -79,11 +79,6 @@ input[id="number"] {
     margin-top: 3px;
 }
 
-.container1, .container2 {
-    border: none;
-    padding-bottom: 10px;
-}
-
 .item1, .item2, .item3, .item4, 
 .item5, .item6, .item13, 
 .item14 { 
