@@ -156,14 +156,15 @@ select[id="state"], input[type="tel"] {
 
 input[id="number"] {
     width: 25%;
-    margin-right: 311px;;
+    margin-left: 74px;
+    margin-top: -10px;
 }
 
 textarea {
     width: 100%;
 }
 
-.container2 p, .item8, .item9, .item10,
+.item8, .item9, .item10,
 .item11, .item12 {
     padding: 8px;
 }
