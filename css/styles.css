@@ -103,6 +103,10 @@ textarea {
     height: 100px;
 }
 
+textarea::placeholder {
+    line-height: 60px;
+}
+
 .button {
     border: 2px solid white;
     border-radius: 5px;
