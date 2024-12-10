@@ -100,8 +100,8 @@ input[id="number"] {
     padding: 8px;
 }
 
-.container2 label {
-    padding-left: 7px;
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 4px;
 }
 
 textarea {
