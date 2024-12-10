@@ -68,7 +68,7 @@ select[id="state"]:hover, textarea:hover {
 }
 
 input[type="text"], input[type="email"], select[id="state"], 
-input[type="tel"], textarea {
+input[type="tel"], textarea, .button:hover {
     border: 2px solid #e0ffed;
     border-radius: 5px;
     padding: 15px;
@@ -108,7 +108,7 @@ textarea::placeholder {
 }
 
 .button {
-    border: 2px solid white;
+    border: 2px solid rgb(59, 189, 178);
     border-radius: 5px;
     padding: 15px;
     margin-top: 30px;
