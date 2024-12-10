@@ -51,9 +51,9 @@ input, select {
     color: rgb(206, 153, 250);
 }
 
-label {
-    padding-top: 15px;
-    padding-bottom: 3px;
+label, p {
+    padding-top: 12px;
+    padding-bottom: 6px;
 }
 
 input:focus, select[id="state"]:focus, 
